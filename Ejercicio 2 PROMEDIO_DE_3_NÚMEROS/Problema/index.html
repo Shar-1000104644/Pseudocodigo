@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
 <head>
-  <meta charset="UTF-8">
-  <title>PROMEDIO_DE_3_NÚMEROS</title>
+  <meta charset="UTF-8"/>
+  <title>PROMEDIO</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
 </head>
-<body>
-  <h1>Problema dos</h1>
+<body class="text-center"><strong>
+    <h1>EJERCICIO DOS</h1></strong>
+  <h2>#Promedio de tres notas</h2>
+  <div class="operacion"><br/>
+    <input id="num_one" type="text" placeholder="Ingresa tu nota " class="btn btn-warning"/>
+    <button disabled="disabled">+</button>
+    <input id="num_two" type="text" placeholder="Ingresa tu nota " class="btn btn-warning"/>
+    <button disabled="disabled">+</button>
+    <input id="num_three" type="text" placeholder="Ingresa tu nota " class="btn btn-warning"/>
+    <button type="button" onclick="promediar()">=</button>
+    <input id="promedio" type="text" placeholder="Resultado" disabled="disabled" class="btn btn-danger"/>
+  </div>
   <script type="text/javascript" src="main.js"></script>
 </body>
-</html>
