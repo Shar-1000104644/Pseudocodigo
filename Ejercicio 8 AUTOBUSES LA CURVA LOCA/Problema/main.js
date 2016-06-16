@@ -9,9 +9,8 @@
 
 function calculo(){
 	var km=document.getElementById('num_one').value;
-	var recorrido=document.getElementById('num_two').value;
-	var resultado=(parseFloat(km)*parseFloat(recorrido));
-
+	var recorrido=0.80;
+	var resultado=(parseFloat(km)*parseFloat(recorrido)).toFixed(2);
 	document.getElementById('tarifa').value= resultado;
 	var letra = document.createElement("h1");
 	var t = document.createTextNode('El boleto debe costar'+' '+ 'S/.'+resultado + ' '+ 'soles'); 
