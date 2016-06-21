@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title SUELDO
+	link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+body.text-center
+	strong
+		h1 EJERCICIO CINCO
+	h2 #Sueldo
+	.operacion
+		br			
+		input#num_one(type="text" placeholder='Remuneración por hora' class='btn btn-warning')
+		button(disabled) +
+		input#num_two(type="text" placeholder='Horas de trabajo' class='btn btn-warning')
+		button(type='button' onclick="ingresos()") =
+		input#sueldo(type="text" placeholder='Resultado' class='btn btn-danger' disabled)
+	script(type="text/javascript" src="main.js")
+		
