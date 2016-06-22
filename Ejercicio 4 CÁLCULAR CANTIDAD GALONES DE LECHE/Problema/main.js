@@ -9,8 +9,8 @@
 
 function convertir(){
 	var litros=document.getElementById('num_one').value;
-	var galones=3.785;
-	var resultado=(parseFloat(litros)/parseFloat(galones)).toFixed(4);
+	var litrosxgalon=3.785;
+	var resultado=(parseFloat(litros)/parseFloat(litrosxgalon)).toFixed(4);
 
 	document.getElementById('convertido').value= resultado;
 	var letra = document.createElement("h1");
